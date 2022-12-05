@@ -1,0 +1,51 @@
+[
+    {
+        "header": "Gingerbread Cookies",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Nut Chocolate",
+        "price": "7.50",
+        "description": "Lorem Ipsum Dolor Sit Amet, Lorem Ipsum Dolor Sit Amet. Lotem Ipstum Dolor Sit Amet, Lorem Ipsum Dolo rSit Amet, Lorem Ipsum.",
+        "availability": false,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Bownies",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Hot Chocolate",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Cinnamon Buns",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Candy Canes",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    },
+    {
+        "header": "Creme de Noel",
+        "price": "5.00",
+        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "availability": true,
+        "image": "Snowflake Sweets Dummy Photo.avif"
+    }
+]
