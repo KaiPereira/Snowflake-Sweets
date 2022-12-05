@@ -1,2 +1,2 @@
 # Snowflake-Sweets
-School Christmas store
+Some garbage code but a functioning app :)
