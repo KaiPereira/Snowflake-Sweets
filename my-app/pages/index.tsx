@@ -3,7 +3,6 @@ import HomeComponent from "../components/HomeComponent"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import React from "react"
-import { DiffieHellmanGroup } from 'crypto'
 
 export default function Home() {
   const [dayAvailability, changeDayAvailability] = React.useState(new Date().getDate())
