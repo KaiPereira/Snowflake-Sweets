@@ -340,6 +340,46 @@ footer {
 	font-size: 17px;
 	color: $red !important;
 }
+.unavailableMain {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+	h1 {
+		font-weight: 600;
+		font-size: 40px;
+		color: $black;
+		margin-top: 50px;
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 17px;
+		color: $medium-gray;
+		margin-top: 20px;
+	}
+
+	img {
+		border-radius: 15px;
+		box-shadow: 7px 7px 0px #4E4E4E;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1250px) {
 	.menuItems {

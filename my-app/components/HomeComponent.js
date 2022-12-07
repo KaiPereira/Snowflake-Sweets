@@ -12,6 +12,8 @@ export default function HomeComponent() {
         }))
     }, [])
 
+
+
     return (
         <main className="homeMain">
             <div className="homeHeader">
@@ -29,6 +31,6 @@ export default function HomeComponent() {
                         </svg>
                     </Link>
                 </button>
-        </main>
+        </main>  
     )
 }
