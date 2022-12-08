@@ -28,10 +28,10 @@ export default function CartMain() {
 
         emailjs.send('service_e9wwm4c', 'template_xxiwp4k', templateParams, 'Mx4BSs--wgH7O-b3f')
             .then(function(response) {
-                changeError(false)
+                changeError("success")
                 console.log('SUCCESS!', response.status, response.text);
             }, function(error) {
-                changeError(true)
+                changeError("failed")
                 console.log('FAILED...', error);
             });
     };
@@ -96,7 +96,7 @@ export default function CartMain() {
                         <path d="M19.4167 2L24 7M24 7L19.4167 12M24 7H2" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </button>
-                <p className={error && "checkoutError"}>{error ? "Order Did Not Go Through" : ""}</p>
+                <p className={error == "success" ? "checkoutSuccess" : "checkoutError"}>{error == "success" ? "Order Went Through!" : error == "failed" ? "Order Did Not Go Through!" : ""}</p>
             </form>
         </main>
     )

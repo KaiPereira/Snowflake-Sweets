@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import React from "react"
 
 export default function Home() {
-  const [dayAvailability, changeDayAvailability] = React.useState(new Date().getDate())
+  const [dayAvailability, changeDayAvailability] = React.useState(12)
   
 
   return (
