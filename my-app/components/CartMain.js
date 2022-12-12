@@ -75,7 +75,7 @@ export default function CartMain() {
         <main className="homeMain" style={{"min-height": availability ? "initial" : "100vh"}}>
             <div className="homeHeader">
                 <h1>Checkout</h1>
-                <p>Finish the checkout process and then we’ll deliver your goods to your class! (If you don't receive your order, please come down to the foyer)</p>
+                <p>Finish the checkout process and then we’ll deliver your goods to your class! Note: If you don't receive your order, please come down to the foyer</p>
             </div>
             <div className="menuItems">
                 <div className="backButtonContainer">
