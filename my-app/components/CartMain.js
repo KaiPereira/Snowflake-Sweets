@@ -8,11 +8,22 @@ export default function CartMain() {
     const [menuItems, changeMenuItems] = React.useState("Nothing")
     const [error, changeError] = React.useState()
     const [menuLocalStorage, changeMenuLocalStorage] = React.useState()
+    const [availability, changeAvailability] = React.useState()
     const [orderDetails, changeOrderDetails] = React.useState({
         name: "",
         roomNumber: "",
         notes: ""
     })
+
+    React.useEffect(() => {
+        const date = {
+            time: parseFloat(new Date().getHours() + "." + new Date().getMinutes()),
+            day: new Date().getDay(),
+        }
+
+        const block = date.day % 2 === 0 ? 2 : 1
+        changeAvailability((block == 1 ? (date.time >= 8.40 && date.time <= 10.00) : (date.time >= 10.10 && date.time <= 11.20)) || (date.time >= 11.30 && date.time <= 12.00))
+    }, [])
 
     const form = React.useRef();
 
@@ -61,10 +72,10 @@ export default function CartMain() {
 
 
     return (
-        <main className="homeMain">
+        <main className="homeMain" style={{"min-height": availability ? "initial" : "100vh"}}>
             <div className="homeHeader">
                 <h1>Checkout</h1>
-                <p>Finish the checkout process and then we’ll deliver your goods to your class!</p>
+                <p>Finish the checkout process and then we’ll deliver your goods to your class! (If you don't receive your order, please come down to the foyer)</p>
             </div>
             <div className="menuItems">
                 <div className="backButtonContainer">
@@ -77,27 +88,29 @@ export default function CartMain() {
                 </div>
                 {menuItems}
             </div>
-            <form ref={form} className="cartInputDetails" onSubmit={sendEmail}>
-                <div className="cartInput">
-                    <p>* Name</p>
-                    <input type="text" name="name" placeholder="John Doe" onChange={changeDetails} required="required" />
-                </div>
-                <div className="cartInput">
-                    <p>* Room Number</p>
-                    <input type="text" name="roomNumber" placeholder="Room 112" onChange={changeDetails} required="required" />
-                </div>
-                <div className="cartInput">
-                    <p>Notes</p>
-                    <input type="text" name="notes" placeholder="I'm allergic to dairy" onChange={changeDetails} />
-                </div>
-                <button type="submit" className="menuItemsCheckout menuItemsCheckout2">
-                    Checkout
-                    <svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.4167 2L24 7M24 7L19.4167 12M24 7H2" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <p className={error == "success" ? "checkoutSuccess" : "checkoutError"}>{error == "success" ? "Order Went Through!" : error == "failed" ? "Order Did Not Go Through!" : ""}</p>
-            </form>
+            { availability &&
+                <form ref={form} className="cartInputDetails" onSubmit={sendEmail}>
+                    <div className="cartInput">
+                        <p>* Name</p>
+                        <input type="text" name="name" placeholder="John Doe" onChange={changeDetails} required="required" />
+                    </div>
+                    <div className="cartInput">
+                        <p>* Room Number</p>
+                        <input type="text" name="roomNumber" placeholder="Room 112" onChange={changeDetails} required="required" />
+                    </div>
+                    <div className="cartInput">
+                        <p>Notes</p>
+                        <input type="text" name="notes" placeholder="I'm allergic to dairy" onChange={changeDetails} />
+                    </div>
+                    <button type="submit" className="menuItemsCheckout menuItemsCheckout2">
+                        Checkout
+                        <svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.4167 2L24 7M24 7L19.4167 12M24 7H2" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <p className={error == "success" ? "checkoutSuccess" : "checkoutError"}>{error == "success" ? "Order Went Through!" : error == "failed" ? "Order Did Not Go Through!" : ""}</p>
+                </form>
+            }
         </main>
     )
 }

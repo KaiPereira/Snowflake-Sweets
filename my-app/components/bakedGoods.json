@@ -1,51 +1,177 @@
 [
     {
-        "header": "Gingerbread Cookies",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Gingerbread Scone",
+        "price": "2.99",
+        "description": "Cozy up with a gingerbread scone, full of spicy goodness and a touch of sweetness. Perfect for a winter treat.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Gingerbread Scone.avif"
     },
     {
-        "header": "Nut Chocolate",
-        "price": "7.50",
-        "description": "Lorem Ipsum Dolor Sit Amet, Lorem Ipsum Dolor Sit Amet. Lotem Ipstum Dolor Sit Amet, Lorem Ipsum Dolo rSit Amet, Lorem Ipsum.",
-        "availability": false,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "header": "Lemon Blueberry Scone",
+        "price": "2.99",
+        "description": "Moist and tender lemon blueberry scones bursting with juicy berries and a hint of tangy lemon. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Lemon Blueberry Scone.avif"
     },
     {
-        "header": "Bownies",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Raspberry White Chocolate Scone",
+        "price": "2.99",
+        "description": "Satisfy your sweet tooth with a delicious raspberry white chocolate scone. Moist and tender with juicy raspberries and rich white chocolate. Perfect for any time of day.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Raspberry White Chocolate Scone.avif"
     },
     {
-        "header": "Hot Chocolate",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Wild Blueberry and Custard Teatime",
+        "price": "8.99",
+        "description": "Enjoy a relaxing wild blueberry and custard teatime with sweet and juicy berries and rich, creamy custard. Perfect for a cozy afternoon treat.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Wild Blueberry and Custard Teatime.avif"
     },
     {
-        "header": "Cinnamon Buns",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Italian Herb Bread",
+        "price": "1.99",
+        "description": "A loaf of our Italian herb bread is packed with flavor from a blend of savory herbs and spices. Perfect for dipping or enjoying with your favorite meal.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Italian Herb Bread.avif"
     },
     {
-        "header": "Candy Canes",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Ciabatta",
+        "price": "1.99",
+        "description": "Authentic Italian ciabatta bread, made with high-quality flour and extra virgin olive oil. Perfect for dipping or enjoying with your favorite meal.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Ciabatta.avif"
     },
     {
-        "header": "Creme de Noel",
-        "price": "5.00",
-        "description": "These incredible gingerbread cookies are vegan and gluten free! Prepared specially by Keira Pereira, they’re sure to make your day!",
+        "header": "Chocolate Croissant",
+        "price": "3.99",
+        "description": "Indulge in a rich and flaky chocolate croissant, made with layers of buttery dough and rich chocolate. Perfect for a decadent breakfast or snack.",
         "availability": true,
-        "image": "Snowflake Sweets Dummy Photo.avif"
+        "image": "Chocolate Croissant.avif"
+    },
+    {
+        "header": "Croissant",
+        "price": "1.99",
+        "description": "Try our delicious croissants, made with layers of buttery dough and baked to perfection. Perfect for breakfast, lunch, or as a snack.",
+        "availability": true,
+        "image": "Croissant.avif"
+    },
+    {
+        "header": "Cinnamon Bun",
+        "price": "2.99",
+        "description": "Indulge in our delicious cinnamon buns, made with a rich, buttery dough and a generous helping of cinnamon and sugar. Perfect for a sweet breakfast or dessert.",
+        "availability": true,
+        "image": "Cinnamon Bun.avif"
+    },
+    {
+        "header": "Double Chocolate Scone",
+        "price": "2.99",
+        "description": "Satisfy your chocolate cravings with our double chocolate scones. Moist, with chunks of rich chocolate in every bite. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Double Chocolate Scone.avif"
+    },
+    {
+        "header": "Cinnamon Scone",
+        "price": "2.99",
+        "description": "Indulge in our delicious cinnamon scones, made with a rich, buttery dough and a generous helping of cinnamon and sugar. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Cinnamon Scone.avif"
+    },
+    {
+        "header": "Blueberry Custard Danish",
+        "price": "2.99",
+        "description": "Enjoy a delicious blueberry custard danish, made with a flaky pastry crust and filled with juicy blueberries and rich, creamy custard. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Blueberry Custard Danish.avif"
+    },
+    {
+        "header": "Raspberry Custard Danish",
+        "price": "2.99",
+        "description": "Try our delicious raspberry custard danish, filled with juicy raspberries and rich, creamy custard. Wrapped in a flaky pastry crust for the perfect sweet treat.",
+        "availability": true,
+        "image": "Raspberry Custard Danish.avif"
+    },
+    {
+        "header": "Apple Danish",
+        "price": "2.99",
+        "description": "Treat yourself to a delicious apple danish, made with a flaky pastry crust and filled with tender, spiced apples. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Apple Danish.avif"
+    },
+    {
+        "header": "Ham and Cheese Bun",
+        "price": "2.99",
+        "description": "Indulge in a savory ham and cheese bun, made with a rich, buttery dough and filled with slices of ham and melted cheese. Perfect for a satisfying breakfast or snack.",
+        "availability": true,
+        "image": "Ham and Cheese Bun.avif"
+    },
+    {
+        "header": "Spinach and Feta Croissant",
+        "price": "2.99",
+        "description": "Try our delicious spinach and feta croissant, made with layers of buttery dough and filled with a savory mixture of spinach and feta cheese. Perfect for a satisfying breakfast or snack.",
+        "availability": true,
+        "image": "Spinach and Feta Croissant.avif"
+    },
+    {
+        "header": "Hawaiian Mini Pizza",
+        "price": "2.99",
+        "description": "Enjoy a tasty Hawaiian mini pizza, made with a crispy crust and topped with a delicious combination of ham, pineapple, and melted cheese. Perfect for a quick and satisfying snack.",
+        "availability": true,
+        "image": "Hawaiian Mini Pizza.avif"
+    },
+    {
+        "header": "Apricot Delight Log",
+        "price": "4.99",
+        "description": "Indulge in our delicious apricot delight log, made with a tender pastry crust and filled with a sweet and tangy apricot filling. Perfect for a satisfying dessert.",
+        "availability": true,
+        "image": "Apricot Delight Log.avif"
+    },
+    {
+        "header": "Mushroom, Garlic, Spinach Mini Pizza",
+        "price": "2.99",
+        "description": "Treat yourself to a delicious apple danish, made with a flaky pastry crust and filled with tender, spiced apples. Perfect for a sweet breakfast or snack.",
+        "availability": true,
+        "image": "Mushroom, Garlic, Spinach Mini Pizza.avif"
+    },
+    {
+        "header": "Cheesy, Jalapeno Twist",
+        "price": "3.99",
+        "description": "Spicy jalapenos and gooey cheese twisted together in a mouthwatering snack. Perfect for satisfying your cravings.",
+        "availability": true,
+        "image": "Cheesy, Jalapeno Twist.avif"
+    },
+    {
+        "header": "Rice Crispy Square",
+        "price": "1.99",
+        "description": "A crispy, crunchy treat made with puffed rice and melted marshmallows. The perfect dessert for satisfying your sweet tooth.",
+        "availability": true,
+        "image": "Rice Crispy Square.avif"
+    },
+    {
+        "header": "Turtle Bars",
+        "price": "1.99",
+        "description": "Delicious layers of chocolate, caramel, and pecans create the perfect combination of sweet and salty in these tasty turtle bars. A must-try for any chocolate lover.",
+        "availability": true,
+        "image": "Turtle Bars.avif"
+    },
+    {
+        "header": "Peppermint Brownie",
+        "price": "1.99",
+        "description": "Rich, fudgy brownies with a hint of peppermint. The perfect dessert for the holiday season.",
+        "availability": true,
+        "image": "Peppermint Brownie.avif"
+    },
+    {
+        "header": "Shortbread Cookie",
+        "price": "1.99",
+        "description": "A simple but delicious treat, these shortbread cookies are made with just a few ingredients and are the perfect balance of buttery and crumbly. Perfect for dipping in tea or coffee.",
+        "availability": true,
+        "image": "Shortbread Cookie.avif"
+    },
+    {
+        "header": "Gingerbread Cookie",
+        "price": "1.99",
+        "description": "A festive holiday treat, these gingerbread cookies are flavored with warm spices and are perfect for decorating and sharing with friends and family. A must-try for any gingerbread lover.",
+        "availability": true,
+        "image": "Gingerbread Cookie.avif"
     }
 ]
