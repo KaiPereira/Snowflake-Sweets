@@ -21,13 +21,6 @@
         "image": "Wild Blueberry and Custard Teatime.avif"
     },
     {
-        "header": "Italian Herb Bread",
-        "price": "1.99",
-        "description": "A loaf of our Italian herb bread is packed with flavor from a blend of savory herbs and spices. Perfect for dipping or enjoying with your favorite meal.",
-        "availability": true,
-        "image": "Italian Herb Bread.avif"
-    },
-    {
         "header": "Ciabatta",
         "price": "1.99",
         "description": "Authentic Italian ciabatta bread, made with high-quality flour and extra virgin olive oil. Perfect for dipping or enjoying with your favorite meal.",
